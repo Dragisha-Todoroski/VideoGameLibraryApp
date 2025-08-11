@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/StyleSheet.css" />
+</head>
+<body>
+    <div class="mb-35">
+        @if (User.Identity!.IsAuthenticated)
+        {
+            @User.Identity.Name
+            <a asp-controller="Account" asp-action="Logout">Logout</a>
+        }
+        else
+        {
+            <a asp-controller="Account" asp-action="Register">Register</a>
+            <a asp-controller="Account" asp-action="Login">Login</a>
+        }
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    @RenderSection("validationScripts", required: false)
+</body>
+</html>

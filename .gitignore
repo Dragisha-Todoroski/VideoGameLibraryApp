@@ -1,0 +1,101 @@
+﻿## Ignore Visual Studio temporary files, build results, and caches
+
+# Visual Studio cache (important to fix locked .vsidx files)
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Generated files
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+*_i.obj
+*_p.obj
+
+# Publish web output
+*.PublishSettings
+*.pubxml
+*.pubxml.user
+*.publishproj
+
+# Backup & report files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.swp
+*.err
+*.log
+
+# NuGet packages
+*.nupkg
+# Ignore the entire packages folder except for build files
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+# If using the old MSBuild packaging
+*.nuspec
+
+# Azure build output
+csx/
+*.build.csdef
+
+# Local database files
+*.mdf
+*.ldf
+
+# Entity Framework migration snapshot
+*.dbmdl
+
+# Resharper & JetBrains Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Coverage results
+*.coverage
+*.coveragexml
+
+# Tye
+.tye/
